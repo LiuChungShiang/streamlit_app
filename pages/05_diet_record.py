@@ -5,7 +5,7 @@ from datetime import date, timedelta
 import os, json, math, io, zipfile, base64
 import plotly.express as px  # Plotlyでの描画
 
-st.set_page_config(page_title="栄養管理ダイエット記録", page_icon="🍱", layout="wide")
+st.set_page_config(page_title="栄養管理アプリ(AIアドバイザー付き)", page_icon="🍱", layout="wide")
 
 # ============================
 # ファイルパス / 文字コード
